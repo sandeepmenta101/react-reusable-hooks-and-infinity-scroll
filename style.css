@@ -34,12 +34,14 @@ h1, p {
   position: absolute;
 }
 .close{
-  right: 25%;
+  right: 26%;
   bottom: 5px;
   cursor: pointer;
   display: inline-block;
+  color: red;
 }
 .search{
   left: 26%;
-  top: 5px;
+  top: 7px;
+  color: dodgerblue;
 }
