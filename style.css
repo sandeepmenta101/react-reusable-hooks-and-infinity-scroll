@@ -1,0 +1,45 @@
+h1, p {
+  font-family: Lato;
+}
+.book{
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 10px;
+}
+.books-wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+  grid-gap: 1em;
+  margin: 10px auto;
+}
+.search-field{
+  margin: 0 auto;
+  display: table;
+  max-width: 300px;
+  min-width: 200px;
+  height: 30px;
+  border: 0;
+  padding-left: 30px; 
+  border: 2px solid dodgerblue;
+  border-radius: 25px;
+}
+.search-field-wrapper{
+  position: relative;
+  margin: 20px auto 0;
+}
+.search-field:focus{
+  outline: none;
+}
+.material-icons{
+  position: absolute;
+}
+.close{
+  right: 25%;
+  bottom: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+.search{
+  left: 26%;
+  top: 5px;
+}
